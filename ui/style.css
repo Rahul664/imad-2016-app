@@ -11,6 +11,9 @@ body {
 .text-big {
     font-size: 300%;
 }
+#bng{
+    color:#00FF00;
+}
 
 .bold {
     font-weight: bold;
