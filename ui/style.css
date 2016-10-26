@@ -18,10 +18,17 @@ body {
 .bold {
     font-weight: bold;
 }
-
+.img-medium{
+   width: 200px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px; 
 }
+
 .title{
-    font-size:200%;
+    font-size:500%;
     text-align:center;
     color:#0084b4;
 }
