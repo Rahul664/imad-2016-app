@@ -19,8 +19,8 @@ body {
     font-weight: bold;
 }
 .img-medium{
-   width: 200px;
-	height: 100px;
+   width: 400px;
+	height: 200px;
 	background: red;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
