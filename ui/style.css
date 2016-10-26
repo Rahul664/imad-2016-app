@@ -6,11 +6,6 @@ body {
 }
 
 .center {
-     width: 400px;
-	height: 200px;
-    -moz-border-radius: 200px / 100px;
-	-webkit-border-radius: 200px / 100px;
-	border-radius: 200px / 100px; 
     text-align: center;
 }
 
@@ -24,7 +19,13 @@ body {
 .bold {
     font-weight: bold;
 }
-
+.img-medium{
+   width: 400px;
+	height: 200px;
+    -moz-border-radius: 200px / 100px;
+	-webkit-border-radius: 200px / 100px;
+	border-radius: 200px / 100px; 
+}
 
 .title{
     font-size:500%;
