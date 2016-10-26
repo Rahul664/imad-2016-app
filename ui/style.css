@@ -22,7 +22,7 @@ body {
 .img-medium{
    width: 400px;
 	height: 200px;
-	background: red;
+
 	-moz-border-radius: 200px / 100px;
 	-webkit-border-radius: 200px / 100px;
 	border-radius: 200px / 100px; 
