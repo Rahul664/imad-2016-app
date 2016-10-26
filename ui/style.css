@@ -22,9 +22,9 @@ body {
    width: 400px;
 	height: 200px;
 	background: red;
-	-moz-border-radius: 100px / 50px;
-	-webkit-border-radius: 100px / 50px;
-	border-radius: 100px / 50px; 
+	-moz-border-radius: 200px / 100px;
+	-webkit-border-radius: 200px / 100px;
+	border-radius: 200px / 100px; 
 }
 
 .title{
