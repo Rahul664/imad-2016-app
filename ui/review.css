@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import 'https://fonts.googleapis.com/css?family=Lobster|Monoton';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #454545;
+    padding: 2%;
+    font-family: 'Josefin Sans' ,sans-serif;
+    font-size: 22px;
+    color: #FAFAFA;
+    text-align: justify;
+}
+
+header{
+    text-align: center;
+    font-family: 'Monoton',sans-serif;
+}
+p{
+    text-indent: 5%;
+}
+
+h2{
+    text-align: center;
+    line-height: 125%;
+}
+
+/*--Start Navigation--*/
+nav{
+    width: 100%;
+    margin: 1% auto;
+    overflow:hidden; 
+}
+nav ul{
+    list-style:none;
+    overflow: hidden;
+}
+
+nav li a{
+    background-color: #737373;
+    border-right: 1px solid #454545;
+    color: #FAFAFA;
+    display: block;
+    font-size: 120%;
+    font-weight: 600;
+    padding: 1%;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    width: 25%;
+    transition: background 0.5s ease;
+    
+}
+
+nav li a:hover, nav li.active a{
+    background: #DADADA;
+    color: #454545;
+}
+
+nav li:last-child a{
+    border: none;
+}
+
+
+.banner{
+    width: 100%;
+    
+}
+
+.banner img{
+    width: 100% !important;
+    height: auto;
+}
+section{
+    width: 60%;
+    float: left;
+    padding: 2%;
+    background-color: #6B6B6B;
+}
+
+aside{
+    float: right;
+    width: 38%;
+    padding: 2%;
+    margin: 1% 0;
+    background-color: #6B6B6B;
+}
+footer{
+    float: left;
+    width: 100%;
+    padding: 2%;
+    margin: 1% 0;
+    background-color: #6B6B6B;
+}
+
+/*--Media Query--*/
+@media only screen and (max-width:780px){
+    nav{
+        margin: 2% auto;
+    }
+    nav li a{
+        width: 50%;
+        font-size: 90%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid #454545;
+    }
+    nav li:nth-child(4) a{
+        border-right: none;
+    }
+    section{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    h2{
+        font-size: 105%;
+    }
+    p{
+        font-size: 95%;
+    }
+}
+
+/*--MEDIA quer mobile--*/
+@media only screen and (max-width:580px){
+   
+    nav li a{
+        width: 100%;
+        font-size: 82%;
+        
+    }
+    nav li:nth-child(even) a{
+        border-right: none;}
+    nav li:nth-child(4) a{
+        border-right: 1px solid #454545;}
+    
+    h2{
+        font-size: 95%;
+    }
+    p{
+        font-size: 88%;
+    }
+}
