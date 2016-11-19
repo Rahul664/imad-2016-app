@@ -61,6 +61,10 @@ app.get('/ui/video.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'video.html'));
 });
 
+app.get('/ui/nav.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'nav.png'));
+});
+
 app.get('/ui/1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '1.jpg'));
 });
