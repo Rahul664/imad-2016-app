@@ -68,6 +68,15 @@ header{
     font-size: 300%;
     color: green;
     }
+    
+    #logo2{ 
+    margin: 40px;
+    font-size: 200%;
+    font-family: 'Monoton';
+    margin-top: 2%;
+    float:left; 
+    text-decoration: none;
+}
 
 
  /*--Start Navigation--*/
